@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projet administration des systèmes d'exploitation</title>
+</head>
+<body>
+
+<h1 style="text-align:center">Projet administration des systemes d'exploitation</h1>
+<div style="text-align:center"></div>
+    <button type="button" style="text-align:center" onclick="toggle()">Sonde CPU</button>
+    <button type="button" style="text-align:center" onclick="toggle2()">Sonde Disque</button>
+    <button type="button" style="text-align:center" onclick="toggle3()">Sonde RAM</button>
+</div>
+<div style="text-align:center" id="1">
+    <embed type="image/svg+xml" src="Sonde1.svg" width="1000" height="600" />
+</div>
+<div style="text-align:center" id="2">
+    <embed type="image/svg+xml" src="Sonde2.svg" width="1000" height="600" />
+</div>
+<div style="text-align:center" id="3">
+    <embed type="image/svg+xml" src="Sonde3.svg" width="1000" height="600" />
+</div>
+<script>
+    function toggle() {
+      var x = document.getElementById("1");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+    function toggle2() {
+      var x = document.getElementById("2");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+    function toggle3() {
+      var x = document.getElementById("3");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+</script>
+
+</body>
+</html>
