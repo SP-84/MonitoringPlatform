@@ -1,4 +1,4 @@
-Projet UE Administration des systèmes d'exploitation 2022-2023
+## Projet UE Administration des systèmes d'exploitation 2022-2023
 
 L’objectif de ce mini-projet et de réaliser une plate-forme logiciel de monitoring d’un parc
 informatique. Cette plate-forme, une fois installée, permettra à l’administrateur système que
@@ -9,10 +9,10 @@ situation de crise. Une situation de crise étant par exemple : quand un serveur
 signe de vie depuis plus de 30 minutes, quand un disque dur atteint 100% d’occupation ou
 lorsque la RAM est utilisée à 100% , etc ..
 
-## Table of Contents
-1. [General Info](#general-info)
-2. [Usage](#usage)
-3. [Technologies](#technologies)
+## Sommaire
+1. [Présentation du projet](#présentation-du-projet)
+2. [Utilisation](#utilisation)
+3. [Ressources](#ressources)
 
 ## Présentation du projet
 
