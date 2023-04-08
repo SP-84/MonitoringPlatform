@@ -28,12 +28,12 @@ L utilisation de la RAM sur la VM est superieure a 25% ! """
     smtp.sendmail("guillaume.salloum@alumni.univ-avignon.fr", "guillaume.salloum@alumni.univ-avignon.fr", msg)
 
 # Graphiques
-chart = pygal.Bar(title = "Evolution du %CPU")
+chart = pygal.HorizontalLine(title = "Evolution du %CPU", style=NeonStyle)
 chart.x_labels = users
 chart.add('CPU', int(cpu[0]))
 chart.render_to_file('SondeCPU.svg')
 
-chart2 = pygal.StackedLine(title = "Evolution de la place libre du disque", style=DarkStyle)
+chart2 = pygal.StackedLine(title = "Evolution de l espace utilise du disque", style=DarkStyle)
 chart2.x_labels = users
 chart2.add('Disque', int(disk[1]))
 chart2.render_to_file('SondeDISK.svg')

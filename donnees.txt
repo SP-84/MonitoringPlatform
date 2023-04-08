@@ -1,1318 +1,662 @@
 Informations CPU :
-0.0
+51.2
 Fin affichage CPU
 Sonde processus
 uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
 uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   1 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   15904    7133  0  1842  3516   2 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15905   15904  0  1842  1616   0 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15906   15904  0  1443   996   3 13:38 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   15908   15905  0  1842  3532   2 13:38 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   15909   15908  0  2517  1548   3 13:38 pts/0    00:00:00 ps -eF
-uapv210+   15910   15908  0  1652  2436   1 13:38 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.732315840825144 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1621516681102715 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   3 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   15904    7133  0  1875  3960   1 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15917   15904  0  1875  1808   0 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15918   15904  0  1443  1056   0 13:38 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   15920   15917  0  1842  3560   2 13:38 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   15921   15920  0  2517  1596   1 13:38 pts/0    00:00:00 ps -eF
-uapv210+   15922   15920  0  1652  2372   0 13:38 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.935913901416724 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.177384188046952 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   0 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   15904    7133  0  1875  3960   1 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15927   15904  0  1875  1808   0 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15928   15904  0  1443  1112   3 13:38 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   15930   15927  0  1842  3608   1 13:38 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   15931   15930  0  2517  1644   2 13:38 pts/0    00:00:00 ps -eF
-uapv210+   15932   15930  0  1652  2272   3 13:38 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.732315840825144 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.172904035124399 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   0 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   15904    7133  0  1875  3960   3 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15937   15904  0  1875  1808   0 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15938   15904  0  1443  1044   1 13:38 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   15940   15937  0  1842  3560   3 13:38 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   15941   15940  0  2517  1664   2 13:38 pts/0    00:00:00 ps -eF
-uapv210+   15942   15940  0  1652  2240   1 13:38 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.732315840825144 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1764881574624413 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   0 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   15904    7133  0  1875  3960   3 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15947   15904  0  1875  1808   3 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15948   15904  0  1443  1044   1 13:38 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   15950   15947  0  1842  3436   2 13:38 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   15951   15950  0  2517  3536   3 13:38 pts/0    00:00:00 ps -eF
-uapv210+   15952   15950  0  1652  2328   0 13:38 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.732315840825144 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1772846290931174 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   1 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   15904    7133  0  1875  3960   1 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15959   15904  0  1875  1808   3 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15960   15904  0  1443  1016   3 13:38 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   15962   15959  0  1842  3584   2 13:38 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   15963   15962  0  2517  1564   0 13:38 pts/0    00:00:00 ps -eF
-uapv210+   15964   15962  0  1652  2268   3 13:38 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.732315840825144 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.177981541769959 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   1 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   15904    7133  0  1875  3960   3 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15969   15904  0  1875  1808   0 13:38 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15970   15904  0  1443  1036   0 13:38 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   15972   15969  0  1842  3472   2 13:38 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   15973   15972  0  2517  1608   3 13:38 pts/0    00:00:00 ps -eF
-uapv210+   15974   15972  0  1652  2228   1 13:38 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.732315840825144 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.17778242386229 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   1 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   2 12:00 pts/0    00:00:00 -bash
-uapv210+   15985    7133  0  1842  3516   3 13:39 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15986   15985  0  1842  1556   1 13:39 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   15987   15985  0  1443  1024   2 13:39 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   15989   15986  0  1842  3480   3 13:39 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   15990   15989  0  2517  1576   0 13:39 pts/0    00:00:00 ps -eF
-uapv210+   15991   15989  0  1652  2432   2 13:39 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.73241539977898 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.159563135310574 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   2 12:00 pts/0    00:00:00 -bash
-uapv210+   15985    7133  0  1875  3928   3 13:39 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16063   15985  0  1875  1684   1 13:39 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16065   15985  0  1443  1016   0 13:39 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16066   16063  0  1842  3564   3 13:39 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16067   16066  0  2517  1604   0 13:39 pts/0    00:00:00 ps -eF
-uapv210+   16068   16066  0  1652  2296   2 13:39 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.732514958732812 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1692203538325219 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   1 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   2 12:00 pts/0    00:00:00 -bash
-uapv210+   15985    7133  0  1875  3928   3 13:39 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16075   15985  0  1875  1684   2 13:39 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16076   15985  0  1443  1052   0 13:39 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16078   16075  0  1842  3564   3 13:39 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16079   16078  0  2517  1568   0 13:39 pts/0    00:00:00 ps -eF
-uapv210+   16080   16078  0  1652  2404   1 13:39 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.732514958732812 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.172904035124399 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   2 12:00 pts/0    00:00:00 -bash
-uapv210+   15985    7133  0  1875  3928   3 13:39 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16086   15985  0  1875  1684   0 13:39 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16087   15985  0  1443  1036   3 13:39 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16089   16086  0  1842  3576   1 13:39 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16090   16089  0  2517  1644   0 13:39 pts/0    00:00:00 ps -eF
-uapv210+   16091   16089  0  1652  2308   2 13:39 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.732514958732812 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1738000657089094 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   1 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   2 12:00 pts/0    00:00:00 -bash
-uapv210+   15985    7133  0  1875  3928   2 13:39 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16096   15985  0  1875  1684   1 13:39 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16097   15985  0  1443  1004   2 13:39 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16099   16096  0  1842  3440   3 13:39 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16100   16099  0  2517  1608   2 13:39 pts/0    00:00:00 ps -eF
-uapv210+   16101   16099  0  1652  2272   1 13:39 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.732514958732812 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1688221180171838 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   0 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   2 12:00 pts/0    00:00:00 -bash
-uapv210+   15985    7133  0  1875  3928   3 13:39 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16108   15985  0  1875  1684   0 13:39 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16109   15985  0  1443  1012   1 13:39 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16111   16108  0  1842  3588   2 13:39 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16112   16111  0  2517  1596   3 13:39 pts/0    00:00:00 ps -eF
-uapv210+   16113   16111  0  1652  2272   1 13:39 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.936113019324392 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1724062403552262 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   3 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16129    7133  0  1842  3544   3 13:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16130   16129  0  1842  1680   1 13:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16132   16129  0  1443  1012   0 13:40 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16133   16130  0  1842  3460   2 13:40 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16134   16133  0  2517  1588   1 13:40 pts/0    00:00:00 ps -eF
-uapv210+   16135   16133  0  1652  2236   0 13:40 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.732514958732812 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.255209422259391 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.164043288233127 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16129    7133  0  1875  3948   1 13:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16152   16129  0  1875  1852   3 13:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16153   16129  0  1443  1008   3 13:41 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16155   16152  0  1842  3556   0 13:41 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16156   16155  0  2517  1572   1 13:41 pts/0    00:00:00 ps -eF
-uapv210+   16157   16155  0  1652  2196   2 13:41 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.936411696185894 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2616807542586344 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1803709566619873 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:04 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16129    7133  0  1875  3948   1 13:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16171   16129  0  1875  1852   2 13:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16172   16129  0  1443   992   0 13:41 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16174   16171  0  1842  3444   1 13:41 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16175   16174  0  2517  1608   3 13:41 pts/0    00:00:00 ps -eF
-uapv210+   16176   16174  0  1652  2436   0 13:41 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.73311231245582 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2616807542586344 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1772846290931174 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:05 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16129    7133  0  1875  3948   1 13:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16192   16129  0  1875  1852   2 13:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16193   16129  0  1443  1044   3 13:41 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16195   16192  0  1842  3576   1 13:41 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16196   16195  0  2517  1608   0 13:41 pts/0    00:00:00 ps -eF
-uapv210+   16197   16195  0  1652  2296   3 13:41 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.73311231245582 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2616807542586344 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1761894806009376 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:05 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16129    7133  0  1875  3948   1 13:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16211   16129  0  1875  1852   0 13:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16212   16129  0  1443  1044   0 13:41 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16214   16211  0  1842  3600   1 13:41 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16215   16214  0  2517  1668   3 13:41 pts/0    00:00:00 ps -eF
-uapv210+   16216   16214  0  1652  2436   2 13:41 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.733809225132662 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2616807542586344 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1784793365391315 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:05 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16129    7133  0  1875  3948   1 13:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16232   16129  0  1875  1852   2 13:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16233   16129  0  1443  1052   3 13:41 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16235   16232  0  1842  3516   1 13:41 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16236   16235  0  2517  1584   0 13:41 pts/0    00:00:00 ps -eF
-uapv210+   16237   16235  0  1652  2228   3 13:41 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.734008343040331 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2616807542586344 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.178379777585297 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:05 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16129    7133  0  1875  3948   1 13:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16254   16129  0  1875  1852   3 13:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16255   16129  0  1443  1020   3 13:41 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16257   16254  0  1842  3488   1 13:41 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16258   16257  0  2517  1664   0 13:41 pts/0    00:00:00 ps -eF
-uapv210+   16259   16257  0  1652  2336   2 13:41 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.937905080493413 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2616807542586344 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1750943321087581 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   1 12:00 ?        00:00:05 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16129    7133  0  1875  3948   2 13:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16273   16129  0  1875  1852   0 13:42 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16275   16129  0  1443  1052   3 13:42 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16276   16273  0  1842  3544   2 13:42 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16277   16276  0  2517  1572   1 13:42 pts/0    00:00:00 ps -eF
-uapv210+   16278   16276  0  1652  2224   3 13:42 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.734307019901834 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2616807542586344 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1799727208466493 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   0 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16129    7133  0  1875  3948   2 13:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16294   16129  0  1875  1852   1 13:42 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16295   16129  0  1443  1004   2 13:42 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16297   16294  0  1842  3544   3 13:42 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16298   16297  0  2517  1608   0 13:42 pts/0    00:00:00 ps -eF
-uapv210+   16299   16297  0  1652  2272   2 13:42 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.734506137809504 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2616807542586344 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.178180659677628 % de la mémoire
-Fin
-Informations CPU :
-0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16348    7133  0  1842  3432   2 13:45 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16349   16348  0  1842  1588   3 13:45 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16350   16348  0  1443  1112   1 13:45 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16352   16349  0  1842  3484   0 13:45 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16353   16352  0  2517  1612   3 13:45 pts/0    00:00:00 ps -eF
-uapv210+   16354   16352  0  1652  2308   2 13:45 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.938203757354918 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.262178549027807 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.158965781587567 % de la mémoire
-Fin
-Informations CPU :
-0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   3 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16348    7133  0  1875  3876   1 13:45 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16359   16348  0  1875  1780   2 13:46 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16360   16348  0  1443  1056   0 13:46 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16362   16359  0  1842  3372   1 13:46 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16363   16362  0  2517  1588   2 13:46 pts/0    00:00:00 ps -eF
-uapv210+   16364   16362  0  1652  2432   3 13:46 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.734605696763339 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.262178549027807 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1730035940782333 % de la mémoire
-Fin
-Informations CPU :
-0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   0 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16348    7133  0  1875  3876   1 13:45 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16369   16348  0  1875  1780   0 13:46 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16370   16348  0  1443  1040   2 13:46 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16372   16369  0  1842  3556   1 13:46 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16373   16372  0  2517  1548   3 13:46 pts/0    00:00:00 ps -eF
-uapv210+   16374   16372  0  1652  2428   2 13:46 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.734605696763339 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.262178549027807 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.173103153032068 % de la mémoire
-Fin
-Informations CPU :
-1
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   1 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16348    7133  0  1875  3876   2 13:45 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16379   16348  0  1875  1780   3 13:46 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16380   16348  0  1443  1096   0 13:46 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16382   16379  0  1842  3396   2 13:46 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16383   16382  0  2517  1576   3 13:46 pts/0    00:00:00 ps -eF
-uapv210+   16384   16382  0  1652  2428   0 13:46 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.734605696763339 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.262178549027807 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1764881574624413 % de la mémoire
-Fin
-Informations CPU :
-0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16348    7133  0  1875  3876   2 13:45 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16389   16348  0  1875  1780   2 13:46 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16390   16348  0  1443  1032   0 13:46 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16392   16389  0  1842  3540   3 13:46 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16393   16392  0  2517  1572   1 13:46 pts/0    00:00:00 ps -eF
-uapv210+   16394   16392  0  1652  2308   0 13:46 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.734605696763339 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.262178549027807 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.174297860478082 % de la mémoire
-Fin
-Informations CPU :
-0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   0 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16348    7133  0  1875  3876   1 13:45 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16399   16348  0  1875  1780   2 13:46 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16400   16348  0  1443  1036   3 13:46 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16402   16399  0  1842  3536   1 13:46 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16403   16402  0  2517  1556   2 13:46 pts/0    00:00:00 ps -eF
-uapv210+   16404   16402  0  1652  2284   3 13:46 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.734605696763339 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.262178549027807 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1722071224475572 % de la mémoire
-Fin
-Informations CPU :
-0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   1 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16348    7133  0  1875  3876   2 13:45 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16409   16348  0  1875  1780   0 13:46 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16410   16348  0  1443  1024   0 13:46 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16412   16409  0  1842  3532   2 13:46 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16413   16412  0  2517  1608   3 13:46 pts/0    00:00:00 ps -eF
-uapv210+   16414   16412  0  1652  2260   0 13:46 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.734605696763339 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.262178549027807 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.173899624662744 % de la mémoire
-Fin
-Informations CPU :
-0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   0 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16348    7133  0  1875  3876   2 13:45 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16419   16348  0  1875  1740   3 13:46 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16420   16348  0  1443  1056   1 13:46 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16422   16419  0  1842  3504   2 13:46 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16423   16422  0  2517  1564   3 13:46 pts/0    00:00:00 ps -eF
-uapv210+   16424   16422  0  1652  2300   1 13:46 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.734605696763339 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.262178549027807 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1753930089702616 % de la mémoire
-Fin
-Informations CPU :
-0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5732   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16348    7133  0  1875  3876   1 13:45 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16432   16348  0  1875  1780   2 13:46 pts/0    00:00:00 /bin/bash ./stockage.sh
-uapv210+   16433   16348  0  1443  1044   3 13:46 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16435   16432  0  1842  3380   1 13:46 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16436   16435  0  2517  1608   3 13:46 pts/0    00:00:00 ps -eF
-uapv210+   16437   16435  0  1652  2416   2 13:46 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.734605696763339 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.262178549027807 % de la mémoire
-www-data utilise 8.417609987754249 % de la mémoire
-uapv2103100 utilise 1.1760899216471032 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   3 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5820   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16495    7133  0  1842  3532   2 13:56 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16496   16495  0  1842  1660   0 13:56 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16497   16495  0  1443  1024   0 13:56 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16499   16496  0  1842  3576   2 13:56 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16500   16499  0  2517  1596   1 13:56 pts/0    00:00:00 ps -eF
-uapv210+   16501   16499  0  1652  2256   3 13:56 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.734705255717172 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.262178549027807 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.1615543143872644 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:12 sshd: uapv2103100@pts/0
 uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16524    7133  0  1842  3508   3 13:57 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16525   16524  0  1842  1664   0 13:57 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16527   16524  0  1443  1016   3 13:57 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16528   16525  0  1842  3408   1 13:57 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16529   16528  0  2517  1560   0 13:57 pts/0    00:00:00 ps -eF
-uapv210+   16530   16528  0  1652  2240   2 13:57 pts/0    00:00:00 grep uapv210+
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5448   1 14:38 pts/1    00:00:00 -bash
+uapv210+   18260   18251  0   926  1396   2 14:38 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18261   18260 94   926   108   3 14:38 pts/1    00:00:05 stress --cpu 2 --timeout 600
+uapv210+   18262   18260 94   926   108   0 14:38 pts/1    00:00:05 stress --cpu 2 --timeout 600
+uapv210+   18264    7133  0  1842  3604   2 14:38 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18265   18264  0  1842  1776   2 14:38 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18266   18264  0  1443  1096   1 14:38 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18268   18265  0  1842  3520   2 14:38 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18269   18268  0  2517  1544   2 14:38 pts/0    00:00:00 ps -eF
+uapv210+   18270   18268  0  1652  2428   1 14:38 pts/0    00:00:00 grep uapv210+
 Fin affichage processus
 Sonde disque
 30368	/home/uapv2103100
 Fin affichage disque
 Memoire par utilisateur
-root utilise 8.734705255717172 % de la mémoire
+root utilise 9.54690720109913 % de la mémoire
 systemd-network utilise 0.20399629640691735 % de la mémoire
 systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
 syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.262178549027807 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.1623507860179405 % de la mémoire
+mysql utilise 2.274026064534114 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5568033611102816 % de la mémoire
 Fin
 Informations CPU :
-0.0
+51.2
 Fin affichage CPU
 Sonde processus
 uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
 uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:12 sshd: uapv2103100@pts/0
 uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16551    7133  0  1842  3568   2 13:58 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16552   16551  0  1842  1388   3 13:58 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16553   16551  0  1443  1052   3 13:58 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16555   16552  0  1842  3476   1 13:58 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16556   16555  0  2517  1588   3 13:58 pts/0    00:00:00 ps -eF
-uapv210+   16557   16555  0  1652  2364   0 13:58 pts/0    00:00:00 grep uapv210+
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5448   1 14:38 pts/1    00:00:00 -bash
+uapv210+   18260   18251  0   926  1396   2 14:38 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18261   18260 96   926   108   3 14:38 pts/1    00:00:16 stress --cpu 2 --timeout 600
+uapv210+   18262   18260 96   926   108   0 14:38 pts/1    00:00:16 stress --cpu 2 --timeout 600
+uapv210+   18264    7133  0  1875  4012   1 14:38 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18291   18264  0  1875  1920   1 14:39 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18292   18264  0  1443  1008   1 14:39 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18294   18291  0  1842  3436   2 14:39 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18295   18294  0  2517  1648   2 14:39 pts/0    00:00:00 ps -eF
+uapv210+   18296   18294  0  1652  2260   1 14:39 pts/0    00:00:00 grep uapv210+
 Fin affichage processus
 Sonde disque
 30368	/home/uapv2103100
 Fin affichage disque
 Memoire par utilisateur
-root utilise 8.734904373624842 % de la mémoire
+root utilise 9.750803938552213 % de la mémoire
 systemd-network utilise 0.20399629640691735 % de la mémoire
 systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
 syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2623776669354756 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.1600609300797466 % de la mémoire
+mysql utilise 2.274026064534114 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5653654311400496 % de la mémoire
 Fin
 Informations CPU :
-0.0
+50.0
 Fin affichage CPU
 Sonde processus
 uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
 uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   0 12:00 ?        00:00:06 sshd: uapv2103100@pts/0
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:12 sshd: uapv2103100@pts/0
 uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16551    7133  0  1875  3948   1 13:58 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16577   16551  0  1875  1576   0 13:58 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16578   16551  0  1443  1024   2 13:58 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16580   16577  0  1842  3540   3 13:58 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16581   16580  0  2517  1600   1 13:58 pts/0    00:00:00 ps -eF
-uapv210+   16582   16580  0  1652  2256   2 13:58 pts/0    00:00:00 grep uapv210+
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5448   1 14:38 pts/1    00:00:00 -bash
+uapv210+   18260   18251  0   926  1396   2 14:38 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18261   18260 97   926   108   3 14:38 pts/1    00:00:27 stress --cpu 2 --timeout 600
+uapv210+   18262   18260 97   926   108   0 14:38 pts/1    00:00:27 stress --cpu 2 --timeout 600
+uapv210+   18264    7133  0  1875  4012   1 14:38 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18380   18264  0  1875  1920   1 14:39 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18381   18264  0  1443  1056   1 14:39 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18383   18380  0  1842  3508   2 14:39 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18384   18383  0  2517  1564   2 14:39 pts/0    00:00:00 ps -eF
+uapv210+   18385   18383  0  1652  2432   1 14:39 pts/0    00:00:00 grep uapv210+
 Fin affichage processus
 Sonde disque
 30368	/home/uapv2103100
 Fin affichage disque
 Memoire par utilisateur
-root utilise 8.735203050486344 % de la mémoire
+root utilise 9.547404995868304 % de la mémoire
 systemd-network utilise 0.20399629640691735 % de la mémoire
 systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
 syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2623776669354756 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.170016825463198 % de la mémoire
+mysql utilise 2.274026064534114 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5642702826478703 % de la mémoire
 Fin
 Informations CPU :
-0.0
+50.0
 Fin affichage CPU
 Sonde processus
 uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
 uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   0 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5824   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16601    7133  0  1842  3584   0 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16602   16601  0  1842  1720   2 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16603   16601  0  1443  1016   1 13:59 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16605   16602  0  1842  3588   2 13:59 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16606   16605  0  2517  1564   1 13:59 pts/0    00:00:00 ps -eF
-uapv210+   16607   16605  0  1652  2436   0 13:59 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.735203050486344 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2623776669354756 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.1652379956791412 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8028   2 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5824   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16601    7133  0  1875  3992   0 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16624   16601  0  1875  1860   2 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16625   16601  0  1443  1036   3 13:59 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16627   16624  0  1842  3376   0 13:59 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16628   16627  0  2517  1568   3 13:59 pts/0    00:00:00 ps -eF
-uapv210+   16629   16627  0  1652  2240   2 13:59 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.735700845255517 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2623776669354756 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.181067869338829 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5824   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16601    7133  0  1875  3992   0 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16646   16601  0  1875  1888   1 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16647   16601  0  1443  1032   2 13:59 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16649   16646  0  1842  3432   0 13:59 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16650   16649  0  2517  1556   2 13:59 pts/0    00:00:00 ps -eF
-uapv210+   16651   16649  0  1652  2308   1 13:59 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.735700845255517 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2623776669354756 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.1860458170305546 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5824   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16601    7133  0  1875  3992   0 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16668   16601  0  1875  1888   1 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16670   16601  0  1443   992   0 13:59 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16671   16668  0  1842  3480   2 13:59 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16672   16671  0  2517  1556   3 13:59 pts/0    00:00:00 ps -eF
-uapv210+   16673   16671  0  1652  2200   0 13:59 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.735999522117021 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2623776669354756 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.184154196907699 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8144   3 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5824   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16601    7133  0  1875  3992   0 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16692   16601  0  1875  1888   3 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16693   16601  0  1443  1008   1 13:59 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16695   16692  0  1842  3564   0 13:59 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16696   16695  0  2517  1556   2 13:59 pts/0    00:00:00 ps -eF
-uapv210+   16697   16695  0  1652  2228   1 13:59 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.735999522117021 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2687494399808847 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.1831586073693539 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8144   0 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5824   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16601    7133  0  1875  3992   0 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16714   16601  0  1875  1860   1 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16715   16601  0  1443  1016   1 13:59 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16717   16714  0  1842  3496   2 13:59 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16718   16717  0  2517  1588   3 13:59 pts/0    00:00:00 ps -eF
-uapv210+   16719   16717  0  1652  2272   1 13:59 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.736397757932359 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2687494399808847 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.185348904353713 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8144   2 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5824   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16601    7133  0  1875  3992   0 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16736   16601  0  1875  1860   2 14:00 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16737   16601  0  1443  1056   3 14:00 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16739   16736  0  1842  3576   0 14:00 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16740   16739  0  2517  1608   3 14:00 pts/0    00:00:00 ps -eF
-uapv210+   16741   16739  0  1652  2244   0 14:00 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.736497316886194 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2687494399808847 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.184950668538375 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5824   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16601    7133  0  1875  3992   0 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16759   16601  0  1875  1888   1 14:00 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16760   16601  0  1443  1112   2 14:00 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16762   16759  0  1842  3532   0 14:00 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16763   16762  0  2517  1604   3 14:00 pts/0    00:00:00 ps -eF
-uapv210+   16764   16762  0  1652  2296   2 14:00 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.736795993747696 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2687494399808847 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.1874396423842377 % de la mémoire
-Fin
-Informations CPU :
-2.3
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5824   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16601    7133  0  1875  3992   0 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16781   16601  0  1875  1888   1 14:00 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16782   16601  0  1443  1052   3 14:00 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16784   16781  0  1842  3584   0 14:00 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16785   16784  0  2517  1664   3 14:00 pts/0    00:00:00 ps -eF
-uapv210+   16786   16784  0  1652  2296   1 14:00 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.736795993747696 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2687494399808847 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.1844528737692024 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8144   2 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5824   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16601    7133  0  1875  3992   1 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16804   16601  0  1875  1860   3 14:00 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16805   16601  0  1443  1016   0 14:00 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16807   16804  0  1842  3472   1 14:00 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16808   16807  0  2517  1584   3 14:00 pts/0    00:00:00 ps -eF
-uapv210+   16809   16807  0  1652  2276   2 14:00 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.737094670609201 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2687494399808847 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.1848511095845407 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8144   0 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5824   3 12:00 pts/0    00:00:00 -bash
-uapv210+   16601    7133  0  1875  3992   1 13:59 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16826   16601  0  1875  1864   3 14:00 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16827   16601  0  1443  1020   2 14:00 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16829   16826  0  1842  3532   1 14:00 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16830   16829  0  2517  1580   3 14:00 pts/0    00:00:00 ps -eF
-uapv210+   16831   16829  0  1652  2256   2 14:00 pts/0    00:00:00 grep uapv210+
-Fin affichage processus
-Sonde disque
-30368	/home/uapv2103100
-Fin affichage disque
-Memoire par utilisateur
-root utilise 8.737293788516869 % de la mémoire
-systemd-network utilise 0.20399629640691735 % de la mémoire
-systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
-syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2687494399808847 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.1842537558615334 % de la mémoire
-Fin
-Informations CPU :
-0.0
-Fin affichage CPU
-Sonde processus
-uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
-uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8144   2 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:12 sshd: uapv2103100@pts/0
 uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16844    7133  0  1842  3464   3 14:01 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16845   16844  0  1842  1472   1 14:01 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16846   16844  0  1443  1012   1 14:01 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16848   16845  0  1842  3396   3 14:01 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16849   16848  0  2517  1568   0 14:01 pts/0    00:00:00 ps -eF
-uapv210+   16850   16848  0  1652  2228   3 14:01 pts/0    00:00:00 grep uapv210+
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5448   1 14:38 pts/1    00:00:00 -bash
+uapv210+   18260   18251  0   926  1396   2 14:38 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18261   18260 99   926   108   3 14:38 pts/1    00:00:38 stress --cpu 2 --timeout 600
+uapv210+   18262   18260 99   926   108   0 14:38 pts/1    00:00:38 stress --cpu 2 --timeout 600
+uapv210+   18264    7133  0  1875  4012   1 14:38 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18402   18264  0  1875  1884   1 14:39 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18403   18264  0  1443  1008   1 14:39 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18405   18402  0  1842  3520   2 14:39 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18406   18405  0  2517  1612   1 14:39 pts/0    00:00:00 ps -eF
+uapv210+   18407   18405  0  1652  2304   2 14:39 pts/0    00:00:00 grep uapv210+
 Fin affichage processus
 Sonde disque
 30368	/home/uapv2103100
 Fin affichage disque
 Memoire par utilisateur
-root utilise 8.737293788516869 % de la mémoire
+root utilise 9.547404995868304 % de la mémoire
 systemd-network utilise 0.20399629640691735 % de la mémoire
 systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
 syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2687494399808847 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.1592644584490706 % de la mémoire
+mysql utilise 2.274026064534114 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5684517587089195 % de la mémoire
+Fin
+Informations CPU :
+51.2
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:12 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5448   1 14:38 pts/1    00:00:00 -bash
+uapv210+   18260   18251  0   926  1396   2 14:38 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18261   18260 99   926   108   3 14:38 pts/1    00:00:48 stress --cpu 2 --timeout 600
+uapv210+   18262   18260 99   926   108   0 14:38 pts/1    00:00:48 stress --cpu 2 --timeout 600
+uapv210+   18264    7133  0  1875  4012   1 14:38 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18424   18264  0  1875  1932   1 14:39 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18425   18264  0  1443  1056   1 14:39 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18427   18424  0  1842  3592   2 14:39 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18428   18427  0  2517  1588   2 14:39 pts/0    00:00:00 ps -eF
+uapv210+   18429   18427  0  1652  2436   1 14:39 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.547604113775972 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.274026064534114 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.568352199755085 % de la mémoire
+Fin
+Informations CPU :
+51.2
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   2 12:00 ?        00:00:12 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5448   1 14:38 pts/1    00:00:00 -bash
+uapv210+   18260   18251  0   926  1396   2 14:38 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18261   18260 99   926   108   3 14:38 pts/1    00:00:59 stress --cpu 2 --timeout 600
+uapv210+   18262   18260 99   926   108   0 14:38 pts/1    00:00:59 stress --cpu 2 --timeout 600
+uapv210+   18264    7133  0  1875  4012   2 14:38 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18448   18264  0  1875  1920   2 14:39 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18449   18264  0  1443  1044   2 14:39 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18451   18448  0  1842  3540   1 14:39 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18452   18451  0  2517  1608   1 14:39 pts/0    00:00:00 ps -eF
+uapv210+   18453   18451  0  1652  2320   2 14:39 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.547902790637476 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.274026064534114 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5674561691705744 % de la mémoire
+Fin
+Informations CPU :
+50.0
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   2 12:00 ?        00:00:12 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5448   1 14:38 pts/1    00:00:00 -bash
+uapv210+   18260   18251  0   926  1396   2 14:38 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18261   18260 99   926   108   3 14:38 pts/1    00:01:10 stress --cpu 2 --timeout 600
+uapv210+   18262   18260 99   926   108   0 14:38 pts/1    00:01:10 stress --cpu 2 --timeout 600
+uapv210+   18264    7133  0  1875  4012   2 14:38 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18470   18264  0  1875  1920   2 14:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18471   18264  0  1443  1092   2 14:40 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18473   18470  0  1842  3496   1 14:40 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18474   18473  0  2517  1556   2 14:40 pts/0    00:00:00 ps -eF
+uapv210+   18475   18473  0  1652  2272   1 14:40 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.547902790637476 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.274026064534114 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5728323526776382 % de la mémoire
+Fin
+Informations CPU :
+50.0
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   2 12:00 ?        00:00:12 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5448   1 14:38 pts/1    00:00:00 -bash
+uapv210+   18260   18251  0   926  1396   2 14:38 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18261   18260 99   926   108   3 14:38 pts/1    00:01:21 stress --cpu 2 --timeout 600
+uapv210+   18262   18260 99   926   108   0 14:38 pts/1    00:01:21 stress --cpu 2 --timeout 600
+uapv210+   18264    7133  0  1875  4012   2 14:38 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18495   18264  0  1875  1920   2 14:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18496   18264  0  1443  1004   2 14:40 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18498   18495  0  1842  3560   1 14:40 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18499   18498  0  2517  1572   2 14:40 pts/0    00:00:00 ps -eF
+uapv210+   18500   18498  0  1652  2208   1 14:40 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.547902790637476 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.274026064534114 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5688499945242578 % de la mémoire
+Fin
+Informations CPU :
+48.8
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:12 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5448   1 14:38 pts/1    00:00:00 -bash
+uapv210+   18260   18251  0   926  1396   2 14:38 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18261   18260 99   926   108   3 14:38 pts/1    00:01:32 stress --cpu 2 --timeout 600
+uapv210+   18262   18260 99   926   108   0 14:38 pts/1    00:01:32 stress --cpu 2 --timeout 600
+uapv210+   18264    7133  0  1875  4012   1 14:38 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18520   18264  0  1875  1948   1 14:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18521   18264  0  1443  1116   1 14:40 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18523   18520  0  1842  3540   2 14:40 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18524   18523  0  2517  1576   2 14:40 pts/0    00:00:00 ps -eF
+uapv210+   18525   18523  0  1652  2232   1 14:40 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.548301026452814 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.274026064534114 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5697460251087683 % de la mémoire
+Fin
+Informations CPU :
+50.0
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   2 12:00 ?        00:00:12 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5448   1 14:38 pts/1    00:00:00 -bash
+uapv210+   18260   18251  0   926  1396   2 14:38 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18261   18260 99   926   108   3 14:38 pts/1    00:01:43 stress --cpu 2 --timeout 600
+uapv210+   18262   18260 99   926   108   0 14:38 pts/1    00:01:43 stress --cpu 2 --timeout 600
+uapv210+   18264    7133  0  1875  4012   2 14:38 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18542   18264  0  1875  1920   2 14:40 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18543   18264  0  1443  1024   2 14:40 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18545   18542  0  1842  3608   1 14:40 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18546   18545  0  2517  1572   2 14:40 pts/0    00:00:00 ps -eF
+uapv210+   18547   18545  0  1652  2284   1 14:40 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.548599703314316 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.274026064534114 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5714385273239548 % de la mémoire
+Fin
+Informations CPU :
+50.0
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   0 12:00 ?        00:00:13 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18571   18251  0   926  1332   1 14:41 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18572   18571 99   926   112   2 14:41 pts/1    00:00:02 stress --cpu 2 --timeout 600
+uapv210+   18573   18571 99   926   112   3 14:41 pts/1    00:00:02 stress --cpu 2 --timeout 600
+uapv210+   18574    7133  0  1842  3540   0 14:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18575   18574  0  1842  1548   0 14:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18576   18574  0  1443  1012   0 14:41 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18578   18575  0  1842  3572   1 14:41 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18579   18578  0  2517  1644   0 14:41 pts/0    00:00:00 ps -eF
+uapv210+   18580   18578  0  1652  2204   1 14:41 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.752197763905896 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5461505530499884 % de la mémoire
+Fin
+Informations CPU :
+50.0
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:13 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18571   18251  0   926  1332   1 14:41 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18572   18571 99   926   112   2 14:41 pts/1    00:00:14 stress --cpu 2 --timeout 600
+uapv210+   18573   18571 99   926   112   3 14:41 pts/1    00:00:14 stress --cpu 2 --timeout 600
+uapv210+   18574    7133  0  1875  3920   1 14:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18598   18574  0  1875  1736   1 14:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18599   18574  0  1443  1008   1 14:41 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18601   18598  0  1842  3564   0 14:41 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18602   18601  0  2517  1568   0 14:41 pts/0    00:00:00 ps -eF
+uapv210+   18603   18601  0  1652  2368   1 14:41 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.548997939129656 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5634738110171935 % de la mémoire
+Fin
+Informations CPU :
+50.0
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:13 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18571   18251  0   926  1332   1 14:41 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18572   18571 99   926   112   2 14:41 pts/1    00:00:25 stress --cpu 2 --timeout 600
+uapv210+   18573   18571 99   926   112   3 14:41 pts/1    00:00:25 stress --cpu 2 --timeout 600
+uapv210+   18574    7133  0  1875  3920   1 14:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18620   18574  0  1875  1736   1 14:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18621   18574  0  1443  1028   1 14:41 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18623   18620  0  1842  3536   0 14:41 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18624   18623  0  2517  1576   0 14:41 pts/0    00:00:00 ps -eF
+uapv210+   18625   18623  0  1652  2324   1 14:41 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.549197057037324 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5553099768027636 % de la mémoire
+Fin
+Informations CPU :
+51.2
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:13 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18571   18251  0   926  1332   1 14:41 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18572   18571 99   926   112   2 14:41 pts/1    00:00:36 stress --cpu 2 --timeout 600
+uapv210+   18573   18571 99   926   112   3 14:41 pts/1    00:00:36 stress --cpu 2 --timeout 600
+uapv210+   18574    7133  0  1875  3920   1 14:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18642   18574  0  1875  1736   1 14:42 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18643   18574  0  1443  1040   1 14:42 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18645   18642  0  1842  3360   0 14:42 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18646   18645  0  2517  1592   1 14:42 pts/0    00:00:00 ps -eF
+uapv210+   18647   18645  0  1652  2240   0 14:42 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.549197057037324 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5561064484334397 % de la mémoire
+Fin
+Informations CPU :
+48.8
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:13 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18571   18251  0   926  1332   1 14:41 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18572   18571 99   926   112   2 14:41 pts/1    00:00:47 stress --cpu 2 --timeout 600
+uapv210+   18573   18571 99   926   112   3 14:41 pts/1    00:00:47 stress --cpu 2 --timeout 600
+uapv210+   18574    7133  0  1875  3920   1 14:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18666   18574  0  1875  1736   1 14:42 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18667   18574  0  1443  1056   1 14:42 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18669   18666  0  1842  3516   0 14:42 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18670   18669  0  2517  1588   0 14:42 pts/0    00:00:00 ps -eF
+uapv210+   18671   18669  0  1652  2220   1 14:42 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.549495733898828 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5633742520633591 % de la mémoire
+Fin
+Informations CPU :
+52.4
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:13 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18571   18251  0   926  1332   1 14:41 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18572   18571 99   926   112   2 14:41 pts/1    00:00:59 stress --cpu 2 --timeout 600
+uapv210+   18573   18571 99   926   112   3 14:41 pts/1    00:00:59 stress --cpu 2 --timeout 600
+uapv210+   18574    7133  0  1875  3920   0 14:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18688   18574  0  1875  1736   0 14:42 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18689   18574  0  1443  1112   0 14:42 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18691   18688  0  1842  3500   1 14:42 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18692   18691  0  2517  1556   0 14:42 pts/0    00:00:00 ps -eF
+uapv210+   18693   18691  0  1652  2308   0 14:42 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.549794410760331 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5632746931095247 % de la mémoire
+Fin
+Informations CPU :
+50.0
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:14 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18571   18251  0   926  1332   1 14:41 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18572   18571 99   926   112   2 14:41 pts/1    00:01:10 stress --cpu 2 --timeout 600
+uapv210+   18573   18571 99   926   112   3 14:41 pts/1    00:01:10 stress --cpu 2 --timeout 600
+uapv210+   18574    7133  0  1875  3920   1 14:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18710   18574  0  1875  1736   1 14:42 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18711   18574  0  1443  1032   1 14:42 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18713   18710  0  1842  3412   0 14:42 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18714   18713  0  2517  1664   1 14:42 pts/0    00:00:00 ps -eF
+uapv210+   18715   18713  0  1652  2432   0 14:42 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.549794410760331 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.554413946218253 % de la mémoire
+Fin
+Informations CPU :
+52.4
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:14 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18571   18251  0   926  1332   1 14:41 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18572   18571 99   926   112   2 14:41 pts/1    00:01:21 stress --cpu 2 --timeout 600
+uapv210+   18573   18571 99   926   112   3 14:41 pts/1    00:01:21 stress --cpu 2 --timeout 600
+uapv210+   18574    7133  0  1875  3920   1 14:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18734   18574  0  1875  1736   1 14:42 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18735   18574  0  1443  1028   1 14:42 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18737   18734  0  1842  3524   0 14:42 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18738   18737  0  2517  1596   0 14:42 pts/0    00:00:00 ps -eF
+uapv210+   18739   18737  0  1652  2396   1 14:42 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.75339247135191 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5630755752018555 % de la mémoire
+Fin
+Informations CPU :
+50.0
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:14 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18571   18251  0   926  1332   1 14:41 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18572   18571 99   926   112   2 14:41 pts/1    00:01:33 stress --cpu 2 --timeout 600
+uapv210+   18573   18571 99   926   112   3 14:41 pts/1    00:01:33 stress --cpu 2 --timeout 600
+uapv210+   18574    7133  0  1875  3920   1 14:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18756   18574  0  1875  1736   1 14:43 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18757   18574  0  1443   992   1 14:43 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18759   18756  0  1842  3552   0 14:43 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18760   18759  0  2517  1544   0 14:43 pts/0    00:00:00 ps -eF
+uapv210+   18761   18759  0  1652  2428   1 14:43 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.550192646575669 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5614826319405033 % de la mémoire
+Fin
+Informations CPU :
+50.0
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:14 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18571   18251  0   926  1332   1 14:41 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18572   18571 99   926   112   2 14:41 pts/1    00:01:44 stress --cpu 2 --timeout 600
+uapv210+   18573   18571 99   926   112   3 14:41 pts/1    00:01:44 stress --cpu 2 --timeout 600
+uapv210+   18574    7133  0  1875  3920   1 14:41 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18778   18574  0  1875  1736   1 14:43 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18779   18574  0  1443  1044   1 14:43 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18781   18778  0  1842  3416   0 14:43 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18782   18781  0  2517  1568   0 14:43 pts/0    00:00:00 ps -eF
+uapv210+   18783   18781  0  1652  2248   1 14:43 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.550391764483338 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5639716057863662 % de la mémoire
 Fin
 Informations CPU :
 0.0
@@ -1320,53 +664,258 @@ Fin affichage CPU
 Sonde processus
 uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
 uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8144   3 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16844    7133  0  1875  3844   1 14:01 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16867   16844  0  1875  1628   3 14:01 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16868   16844  0  1443  1024   0 14:01 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16870   16867  0  1842  3604   1 14:01 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16871   16870  0  2517  1576   2 14:01 pts/0    00:00:00 ps -eF
-uapv210+   16872   16870  0  1652  2288   0 14:01 pts/0    00:00:00 grep uapv210+
+uapv210+    7130    4407  0  4326  8144   2 12:00 ?        00:00:14 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   2 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   2 14:38 pts/1    00:00:00 -bash
+uapv210+   18808    7133  0  1842  3576   0 14:44 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18809   18808  0  1842  1632   2 14:44 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18810   18808  0  1443  1032   1 14:44 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18812   18809  0  1842  3476   0 14:44 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18813   18812  0  2517  1556   3 14:44 pts/0    00:00:00 ps -eF
+uapv210+   18814   18812  0  1652  2212   1 14:44 pts/0    00:00:00 grep uapv210+
 Fin affichage processus
 Sonde disque
 30368	/home/uapv2103100
 Fin affichage disque
 Memoire par utilisateur
-root utilise 8.737393347470704 % de la mémoire
+root utilise 9.754188942982587 % de la mémoire
 systemd-network utilise 0.20399629640691735 % de la mémoire
 systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
 syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2687494399808847 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.1756916858317654 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5047340282548312 % de la mémoire
 Fin
 Informations CPU :
-0.0
+48.8
 Fin affichage CPU
 Sonde processus
 uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
 uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
-uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:07 sshd: uapv2103100@pts/0
-uapv210+    7133    7130  0  2249  5824   1 12:00 pts/0    00:00:00 -bash
-uapv210+   16844    7133  0  1875  3844   0 14:01 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16889   16844  0  1875  1652   0 14:01 pts/0    00:00:00 /bin/bash ./actualiser.sh
-uapv210+   16890   16844  0  1443  1020   2 14:01 pts/0    00:00:00 tee -a ./donnees.txt
-uapv210+   16892   16889  0  1842  3532   3 14:01 pts/0    00:00:00 /bin/bash ./sonde2.sh
-uapv210+   16893   16892  0  2517  1564   1 14:01 pts/0    00:00:00 ps -eF
-uapv210+   16894   16892  0  1652  2260   2 14:01 pts/0    00:00:00 grep uapv210+
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:15 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   2 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18808    7133  0  1875  3988   1 14:44 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18833   18251  0   926  1348   1 14:44 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18834   18833 97   926   112   2 14:44 pts/1    00:00:07 stress --cpu 2 --timeout 600
+uapv210+   18835   18833 97   926   112   3 14:44 pts/1    00:00:07 stress --cpu 2 --timeout 600
+uapv210+   18836   18808  0  1875  1752   1 14:44 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18837   18808  0  1443  1016   1 14:44 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18839   18836  0  1842  3584   0 14:44 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18840   18839  0  2517  1668   1 14:44 pts/0    00:00:00 ps -eF
+uapv210+   18841   18839  0  1652  2276   0 14:44 pts/0    00:00:00 grep uapv210+
 Fin affichage processus
 Sonde disque
 30368	/home/uapv2103100
 Fin affichage disque
 Memoire par utilisateur
-root utilise 8.737692024332208 % de la mémoire
+root utilise 9.550690441344841 % de la mémoire
 systemd-network utilise 0.20399629640691735 % de la mémoire
 systemd-resolve utilise 0.30813496211781805 % de la mémoire
-messagebus utilise 0.1176786834323945 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
 syslog utilise 0.13918341746064933 % de la mémoire
-mysql utilise 2.2687494399808847 % de la mémoire
-www-data utilise 8.466891669902333 % de la mémoire
-uapv2103100 utilise 1.1740987425704132 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5640711647402006 % de la mémoire
+Fin
+Informations CPU :
+35.3
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   3 12:00 ?        00:00:15 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   2 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18808    7133  0  1875  3988   3 14:44 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18833   18251  0   926  1348   1 14:44 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18834   18833 99   926   112   2 14:44 pts/1    00:00:19 stress --cpu 2 --timeout 600
+uapv210+   18835   18833 99   926   112   0 14:44 pts/1    00:00:19 stress --cpu 2 --timeout 600
+uapv210+   18859   18808  0  1875  1752   3 14:44 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18861   18808  0  1443  1024   3 14:44 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18862   18859  0  1842  3420   1 14:44 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18863   18862  0  2517  1572   3 14:44 pts/0    00:00:00 ps -eF
+uapv210+   18864   18862  0  1652  2296   1 14:44 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.55108867716018 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5666596975398979 % de la mémoire
+Fin
+Informations CPU :
+33.3
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:15 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   2 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18808    7133  0  1875  3988   1 14:44 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18833   18251  0   926  1348   1 14:44 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18834   18833 99   926   112   2 14:44 pts/1    00:00:30 stress --cpu 2 --timeout 600
+uapv210+   18835   18833 99   926   112   0 14:44 pts/1    00:00:30 stress --cpu 2 --timeout 600
+uapv210+   18881   18808  0  1875  1752   1 14:45 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18882   18808  0  1443  1096   1 14:45 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18884   18881  0  1842  3584   3 14:45 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18885   18884  0  2517  1576   1 14:45 pts/0    00:00:00 ps -eF
+uapv210+   18886   18884  0  1652  2288   3 14:45 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.551287795067848 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5657636669553876 % de la mémoire
+Fin
+Informations CPU :
+36.0
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   3 12:00 ?        00:00:15 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   2 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18808    7133  0  1875  3988   1 14:44 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18833   18251  0   926  1348   1 14:44 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18834   18833 98   926   112   2 14:44 pts/1    00:00:42 stress --cpu 2 --timeout 600
+uapv210+   18835   18833 98   926   112   0 14:44 pts/1    00:00:42 stress --cpu 2 --timeout 600
+uapv210+   18905   18808  0  1875  1752   3 14:45 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18906   18808  0  1443  1028   3 14:45 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18908   18905  0  1842  3548   1 14:45 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18909   18908  0  2517  1608   3 14:45 pts/0    00:00:00 ps -eF
+uapv210+   18910   18908  0  1652  2252   1 14:45 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.551885148790856 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.565464990093884 % de la mémoire
+Fin
+Informations CPU :
+24.6
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   3 12:00 ?        00:00:16 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   2 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18808    7133  0  1875  3988   3 14:44 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18833   18251  0   926  1348   1 14:44 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18834   18833 99   926   112   2 14:44 pts/1    00:00:54 stress --cpu 2 --timeout 600
+uapv210+   18835   18833 99   926   112   0 14:44 pts/1    00:00:54 stress --cpu 2 --timeout 600
+uapv210+   18928   18808  0  1875  1752   3 14:45 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18929   18808  0  1443  1036   3 14:45 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18931   18928  0  1842  3552   1 14:45 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18932   18931  0  2517  1644   3 14:45 pts/0    00:00:00 ps -eF
+uapv210+   18933   18931  0  1652  2292   1 14:45 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.55218382565236 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5622791035711794 % de la mémoire
+Fin
+Informations CPU :
+28.6
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:16 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5824   2 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18808    7133  0  1875  3988   3 14:44 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18833   18251  0   926  1348   1 14:44 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18834   18833 99   926   112   2 14:44 pts/1    00:01:06 stress --cpu 2 --timeout 600
+uapv210+   18835   18833 98   926   112   0 14:44 pts/1    00:01:06 stress --cpu 2 --timeout 600
+uapv210+   18950   18808  0  1875  1752   1 14:45 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   18951   18808  0  1443   992   1 14:45 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   18953   18950  0  1842  3492   3 14:45 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   18954   18953  0  2517  1668   1 14:45 pts/0    00:00:00 ps -eF
+uapv210+   18955   18953  0  1652  2288   3 14:45 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.5528807383292 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5644694005555388 % de la mémoire
+Fin
+Informations CPU :
+50.0
+Fin affichage CPU
+Sonde processus
+uapv210+    6573       1  0  4291  9856   2 12:00 ?        00:00:00 /lib/systemd/systemd --user
+uapv210+    6579    6573  0 42432  4124   0 12:00 ?        00:00:00 (sd-pam)
+uapv210+    7130    4407  0  4326  8144   1 12:00 ?        00:00:16 sshd: uapv2103100@pts/0
+uapv210+    7133    7130  0  2249  5848   1 12:00 pts/0    00:00:00 -bash
+uapv210+   18250   18194  0  4327  8084   0 14:38 ?        00:00:00 sshd: uapv2103100@pts/1
+uapv210+   18251   18250  0  2216  5496   0 14:38 pts/1    00:00:00 -bash
+uapv210+   18833   18251  0   926  1348   1 14:44 pts/1    00:00:00 stress --cpu 2 --timeout 600
+uapv210+   18834   18833 99   926   112   3 14:44 pts/1    00:01:41 stress --cpu 2 --timeout 600
+uapv210+   18835   18833 99   926   112   0 14:44 pts/1    00:01:41 stress --cpu 2 --timeout 600
+uapv210+   19013    7133  0  1842  3592   1 14:46 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   19014   19013  0  1842  1640   1 14:46 pts/0    00:00:00 /bin/bash ./actualiser.sh
+uapv210+   19015   19013  0  1443  1016   1 14:46 pts/0    00:00:00 tee -a ./donnees.txt
+uapv210+   19017   19014  0  1842  3460   2 14:46 pts/0    00:00:00 /bin/bash ./sonde2.sh
+uapv210+   19018   19017  0  2517  1584   1 14:46 pts/0    00:00:00 ps -eF
+uapv210+   19019   19017  0  1652  2204   2 14:46 pts/0    00:00:00 grep uapv210+
+Fin affichage processus
+Sonde disque
+30368	/home/uapv2103100
+Fin affichage disque
+Memoire par utilisateur
+root utilise 9.553776768913712 % de la mémoire
+systemd-network utilise 0.20399629640691735 % de la mémoire
+systemd-resolve utilise 0.30813496211781805 % de la mémoire
+messagebus utilise 0.12424957438547236 % de la mémoire
+syslog utilise 0.13918341746064933 % de la mémoire
+mysql utilise 2.2741256234879486 % de la mémoire
+www-data utilise 8.487102137530739 % de la mémoire
+uapv2103100 utilise 1.5522236492338939 % de la mémoire
 Fin

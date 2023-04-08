@@ -12,6 +12,6 @@ do
 	python3 alerte.py
 	sudo cp SondeCPU.svg ./Sonde1.svg
 	sudo cp SondeDISK.svg ./Sonde2.svg
-        sudo cp SondeRAM.svg ./Sonde3.svg
+    sudo cp SondeRAM.svg ./Sonde3.svg
 	sleep 10;
 done
