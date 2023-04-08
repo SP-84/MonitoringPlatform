@@ -1,5 +1,5 @@
-#Projet UE Administration des systèmes d'exploitation 2022-2023
-***
+Projet UE Administration des systèmes d'exploitation 2022-2023
+
 L’objectif de ce mini-projet et de réaliser une plate-forme logiciel de monitoring d’un parc
 informatique. Cette plate-forme, une fois installée, permettra à l’administrateur système que
 vous êtes de connaître rapidement à chaque fois que vous le demandez l’état détaillé de
@@ -14,8 +14,8 @@ lorsque la RAM est utilisée à 100% , etc ..
 2. [Usage](#usage)
 3. [Technologies](#technologies)
 
-## General Info
-***
+## Présentation du projet
+
 Tout d'abord, il existe quatres sondes, deux en Python et deux en Bash, permettant de récupérer des données respectivement sur l'utilisation du CPU, les processus de l'utilisateur de la VM, l'espace disque occupé ainsi que l'utilisation de la RAM.
 
 Ensuite à l'aide d'un gestionnaire de stockage on peut un archiver historique de sorties des sondes et nettoyer la base de donée. De plus on peut aisement accéder aux informations de la base de données avec l'interface phpMyAdmin
@@ -33,23 +33,28 @@ pour être utilisées par "db.py", qui génère une base de données, une archiv
 Si une crise est détectée (RAM totale > 20%), "alerte.py" prévient l'utilisateur 
 en lui envoyant un mail à l'utilisateur pour le prévenir.
 
-## Usage
-***
+## Utilisation
+
 ./actualiser.sh permet d'afficher les données des sondes, 
 d'insérer leur sortie dans la base de données MySQL "sonde.sql", et de générer les graphiques avec Pygal.
 Pour consulter l'affichage des sondes, aller sur la page web en ouvrant la page "affichage.html", disponible dans Shared partagé entre la VM et le client. 
 
-## Technologies
-***
+## Ressources
+
 Liste des logiciels utilisés :
-* [Python3]
-* [Bash]
-* [Psutil] 
-* [Pygal] 
-* [MySQL] 
-* [phpMyAdmin] 
-* [getpass] 
-* [time] 
-* [html] 
-* [CSS] 
-* [javascript] 
+- [X] Python3
+- [X] Bash
+- [X] psutil
+- [X] time
+- [X] MySQL
+- [X] phpMyAdmin
+- [X] xml.etree.ElementTree
+- [X] xml.dom.minidom
+- [X] smtplib
+- [X] getpass
+- [X] Pygal
+- [X] HTML5
+- [X] CSS
+- [X] JavaScript
+
+
