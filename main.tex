@@ -1,0 +1,536 @@
+\documentclass[a4paper, twoside]{report}
+\usepackage[T1]{fontenc} % Font encoding
+\usepackage[utf8]{inputenc} % Input encoding
+\usepackage[english,french]{babel} % Main language French, some English bits and pieces
+\usepackage[backend=biber, style=verbose-ibid, sorting=nyt, citepages=omit]{biblatex} % For Bibliography
+\usepackage{graphicx} % For external graphics etc
+\usepackage{lipsum} % To generate Lorem Ipsums
+\usepackage[a4paper,top=3cm,bottom=3cm,left=3cm,right=3cm]{geometry} % Margins and paging
+\usepackage[fontsize=13pt]{scrextend} % Bigger Font
+\usepackage{hyperref} % Clickable ToC and hyperlinks
+\usepackage{listings} % Insert code snippet with clear formatting
+\usepackage{appendix} % Better Appendix formatting
+\raggedbottom 
+\pagestyle{headings}
+
+%\renewcommand{\appendixtocname}{Annexes} % Making sure the appendix' names are correctly translated
+%\renewcommand{\appendixpagename}{\appendixtocname}
+
+\usepackage{xcolor} % Use for custom colors, import it last because of collisions with other packages (eg. TikZ)
+
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+\begin{document}
+\pagenumbering{roman}
+
+
+\begin{titlepage}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[keepaspectratio=true,scale=0.25]{./au.eps}
+\end{figure}
+
+\begin{center}
+    \LARGE{AVIGNON UNIVERSITÉ}
+    \vspace{5mm}
+    \\ \large{Département STS - CERI - Licence Informatique}
+    \vspace{5mm}
+    \\ \LARGE{UE Administration des systèmes d'exploitation}
+\end{center}
+
+\vspace{15mm}
+\begin{center}
+    {\LARGE{\bf Mini projet\\\vspace{5mm} Administration des Systèmes d’Exploitation}}
+\end{center}
+\vspace{30mm}
+
+\begin{minipage}[t]{0.47\textwidth}
+	{\large{Enseignant:}{\normalsize\vspace{3mm}
+	\bf\\ \large{JABAIAN Bassam \vspace{2mm}\\ NOCERA Pascal }}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.47\textwidth}\raggedleft
+	{\large{Auteur:}{\normalsize\vspace{3mm}
+    \bf\\ \large{SALLOUM Guillaume}}}
+\end{minipage}
+
+\vspace{20mm}
+\hrulefill
+\\\centering{\large{Année 2022/2023, Semestre 4}}
+\\\vspace{2em}\centering{\small{Template d'Alexandre Klein, distribué sous Licence GNU GPLv3}}
+
+\end{titlepage}
+
+\clearpage
+
+
+{ \hypersetup{hidelinks} \tableofcontents \addcontentsline{toc}{section}{\numberline{}Table des matières} }
+
+\setcounter{page}{1}\pagenumbering{arabic}
+
+\lstdefinestyle{bash}{
+    commentstyle=\color{green!40!black},
+    keywordstyle=\color{black!70!black},
+    basicstyle=\footnotesize\ttfamily,
+    columns=flexible,
+    language=bash,
+    belowcaptionskip=1\baselineskip,
+    extendedchars=false,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    frame=lines,
+    inputencoding=utf8,
+}
+
+\lstdefinestyle{python}{
+    commentstyle=\color{green!40!black},
+    keywordstyle=\color{black!70!black},
+    basicstyle=\footnotesize\ttfamily,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,
+    numberstyle=\tiny\color{gray},                 
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    frame=lines,
+    language=python,
+    inputencoding=utf8,
+}
+
+\chapter{Collecte d'informations}
+
+\begin{lstlisting}[style=python]
+# Sonde CPU
+#!/bin/python
+
+import psutil
+
+print("Informations CPU :")
+print(psutil.cpu_percent(0.1))
+print("Fin affichage CPU")
+\end{lstlisting}
+
+%\includegraphics[keepaspectratio=true,scale=0.60]{./graphics/images/sonde_cpu.png}
+
+
+\begin{lstlisting}[style=bash]
+#!/bin/bash
+
+# Lister les processus de l'utilisateur uapv2103100
+# Sonde processus
+echo "Sonde processus"
+
+ps -eF | grep uapv210+
+
+# Fin affichage processus
+
+echo "Fin affichage processus"
+
+\end{lstlisting}
+
+%\includegraphics[keepaspectratio=true,scale=0.60]{./graphics/images/processus.png}
+
+\begin{lstlisting}[style=bash]
+#!/bin/bash
+
+# Afficher les espaces du disques utilises et les espaces libres
+
+echo "Sonde disque"
+du -shk /home/*;
+echo "Fin affichage disque"
+
+\end{lstlisting}
+
+%\includegraphics[keepaspectratio=true,scale=0.60]{./graphics/images/sonde_disk.png}
+
+\newpage
+\begin{lstlisting}[style=bash]
+#!/bin/bash
+
+# Sonde globale qui appelle toutes les sondes
+
+echo "Sonde CPU"
+python3 sonde1.py
+
+echo "Sonde processus"
+bash sonde2.sh
+
+echo "Sonde disque"
+bash sonde3.sh
+
+\end{lstlisting}
+
+\begin{lstlisting}[style=python]
+import psutil
+
+print("Memoire par utilisateur")
+users = []
+mem = []
+for proc in psutil.process_iter():
+try:
+    pinfo = proc.as_dict(attrs=['username', 'memory_percent'])
+    users.append(pinfo['username'])
+except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+    pass
+
+users2 = []
+for user in users:
+if user not in users2:
+    users2.append(user)
+#print(users)
+#print(users2)
+for j in users2:
+mem.append(0)
+k = 0
+for j in users2:
+for proc in psutil.process_iter():
+    try:
+        pinfo = proc.as_dict(attrs=['username', 'memory_percent'])
+        if (pinfo['username'] == j):
+            mem[k] = mem[k] + pinfo['memory_percent']
+    except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+        pass
+print(j, "utilise", mem[k], "% de la mémoire")
+k = k + 1
+print("Fin")
+
+\end{lstlisting}
+
+\chapter{Stockage et archivage}
+
+\begin{lstlisting}[style=bash]
+#!/bin/bash
+
+# Stockage
+i=1
+
+# Effacer les donnees precedentes pour actualiser les donnees
+# rm ./donnees.txt
+
+while true
+do
+    echo "Affichage des sondes";
+    (python3 sonde1.py && ./sonde2.sh && ./sonde3.sh && python3 sonde4.py) | tee -a ./donnees.txt;
+    ((i++));
+    sleep 5;
+done
+
+\end{lstlisting}
+
+\begin{lstlisting}[style=python]
+#!/bin/python
+# Formatter l'affichage des sondes
+
+liste=[]
+disk=[]
+cpu=[]
+proc=[]
+users=[]
+mem=[]
+mem2=[]
+
+with open("donnees.txt", "r") as f:
+    liste=[line.strip() for line in f]
+
+for i in range(0, len(liste)):
+        if (liste[i] == "Informations CPU :"):
+                while (liste[i+1] != "Fin affichage CPU"):
+                        head, sep, tail = liste[i+1].partition(':')
+                        cpu.append(int(float(head)))
+                        i = i + 1
+
+for i in range(0, len(liste)):
+    if (liste[i] == "Sonde disque"):
+        while (liste[i+1] != "Fin affichage disque"):
+            head, sep, tail = liste[i+1].partition('\t/home/')
+            disk.append(head)
+            i = i + 1
+
+for i in range(0, len(liste)):
+    if (liste[i] == "Sonde processus"):
+        while (liste[i+1] != "Fin affichage processus"):
+            head, sep, tail = liste[i+1].partition('\t/home/')
+            proc.append(head)
+            i = i + 1
+
+for i in range(0, len(liste)):
+    if (liste[i] == "Memoire par utilisateur"):
+        while (liste[i+1] != 'Fin'):
+            head, sep, tail = liste[i+1].partition(' utilise ')
+            users.append(head)
+            mem.append(tail)
+            i = i + 1
+
+\end{lstlisting}
+
+\newpage
+\begin{lstlisting}[style=python]
+import mysql.connector
+from mysql.connector import Error
+from format import liste, disk, cpu, proc
+from sonde4 import users2 as users, mem
+import xml.etree.ElementTree as ET
+import xml.dom.minidom
+import time
+
+try:
+    connection = mysql.connector.connect(
+        host='localhost',
+        database='sondes',
+        user='uapv2103100',
+        password='1234')
+
+    if connection.is_connected():
+        curseur = connection.cursor()
+        bdd_info = connection.get_server_info()
+        i = 0
+        TEMPS = int(time.time())
+        k = TEMPS
+        while (i < len(users)):
+            info ="""INSERT INTO sonde
+                        (Temps, CPU, Processus, Disque, Memoire)
+                        VALUES (%s,%s,%s,%s,%s)"""
+            values = (TEMPS,cpu[i],proc[i],disk[i],mem[i])
+            curseur.execute(info, values)
+            connection.commit()
+            print(curseur.rowcount, "Insertion de valeurs dans la table sonde")
+            i = i + 1
+            TEMPS = TEMPS + 1
+        curseur.close()
+
+        # Gestionnaire d'historique et backup en XML
+        curseur = connection.cursor()
+        j = 0
+        root = ET.Element('root')
+        doc = ET.SubElement(root, 'doc')
+        while (j < len(users)):
+            curseur.execute('SELECT * FROM sonde')
+            for row in curseur:
+                print(row)
+            u = ET.SubElement(doc, 'user')
+            ET.SubElement(u, "TIME", name="TIME").text = "%s" % row[0]
+            ET.SubElement(u, "CPU", name="CPU").text = "%s" % row[1]
+            ET.SubElement(u, "PROC", name="PROC").text = "%s" % row[2]
+            ET.SubElement(u, "DISK", name="DISK").text = "%s" % row[3]
+            ET.SubElement(u, "RAM", name="RAM").text = "%s" % row[4]
+            j = j + 1
+        tree = ET.ElementTree(root)
+        tree.write("db.xml")
+        dom = xml.dom.minidom.parse("db.xml")
+        p = dom.toprettyxml(indent = '\t')
+        f = open("db.xml", "r+")
+        f.truncate(0)
+        f.write(p)
+        f.close()
+        curseur.close()
+
+        curseur = connection.cursor()
+        cmd = "DELETE FROM sonde ORDER BY Temps LIMIT 10"
+        curseur.execute(cmd)
+        print("Base nettoyee")
+        curseur.close()
+
+except Error as e:
+    print("Erreur", e)
+finally:
+    if connection.is_connected():
+        curseur.close()
+        connection.close()
+        print("Fermeture de la connextion a MySQL")
+
+\end{lstlisting}
+
+
+\chapter{Affichage et Alerte}
+
+\begin{lstlisting}[style=python]
+from db import users, disk, mem, cpu
+import pygal
+from pygal.style import DarkStyle
+from pygal.style import NeonStyle
+import smtplib
+import getpass
+import time
+
+f = open("donnees.txt", "r")
+data = f.read()
+print(data)
+
+# Condition alerte
+utilisation_ram = sum(mem)
+alerte = 0
+if (utilisation_ram > 25):
+print ("RAM : ", utilisation_ram, "%")
+print("Alerte RAM")
+alerte = 1
+
+# Envoyer un mail
+if (alerte == 1):
+password = getpass.getpass(prompt = 'Mot de passe : ')
+smtp = smtplib.SMTP_SSL('smtpz.univ-avignon.fr:465')
+smtp.login("guillaume.salloum@alumni.univ-avignon.fr", password)
+msg = """Subject: Alerte RAM 
+L utilisation de la RAM sur la VM est superieure a 25% ! """
+smtp.sendmail("guillaume.salloum@alumni.univ-avignon.fr", "guillaume.salloum@alumni.univ-avignon.fr", msg)
+
+# Graphiques
+chart = pygal.HorizontalLine(title = "Evolution du %CPU", style=NeonStyle)
+chart.x_labels = users
+chart.add('CPU', int(cpu[0]))
+chart.render_to_file('SondeCPU.svg')
+
+chart2 = pygal.StackedLine(title = "Evolution de l espace utilise du disque", style=DarkStyle)
+chart2.x_labels = users
+chart2.add('Disque', int(disk[1]))
+chart2.render_to_file('SondeDISK.svg')
+
+chart3 = pygal.Bar(title = 'Evolution de la RAM/Utilisateur', style=NeonStyle)
+chart3.x_labels = users
+chart3.add('RAM', mem)
+chart3.render_to_file('SondeRAM.svg')
+
+\end{lstlisting}
+
+\chapter{Interface Web}
+
+\begin{lstlisting}[style=python]
+#!/bin/bash
+
+i=1;
+#rm donnees.txt
+while true
+do
+echo "Affichage des sondes";
+(python3 sonde1.py && ./sonde2.sh && ./sonde3.sh && python3 sonde4.py) | tee -a ./donnees.txt;
+((i++));
+python3 format.py
+python3 db.py
+python3 alerte.py
+sudo cp SondeCPU.svg ./Sonde1.svg
+sudo cp SondeDISK.svg ./Sonde2.svg
+sudo cp SondeRAM.svg ./Sonde3.svg
+sleep 10;
+done
+
+\end{lstlisting}
+
+\lstdefinelanguage{HTML5}{
+    sensitive=true,
+    keywords={%
+    % JavaScript
+    typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break,
+    % HTML
+    html, title, meta, style, head, body, script, canvas,
+    % CSS
+    border:, transform:, -moz-transform:, transition-duration:, transition-property:,
+    transition-timing-function:
+    },
+    % http://texblog.org/tag/otherkeywords/
+    otherkeywords={<, >, \/},   
+    ndkeywords={class, export, boolean, throw, implements, import, this},   
+    comment=[l]{//},
+    % morecomment=[s][keywordstyle]{<}{>},  
+    morecomment=[s]{/*}{*/},
+    morecomment=[s]{<!}{>},
+    morestring=[b]',
+    morestring=[b]",    
+    alsoletter={-},
+    alsodigit={:}
+}
+
+\lstdefinestyle{html}{
+    % Basic design
+    backgroundcolor=\color{lightgray},
+    basicstyle={\small\ttfamily},   
+    frame=l,
+    % Line numbers
+    xleftmargin={0.75cm},
+    numbers=left,
+    stepnumber=1,
+    firstnumber=1,
+    numberfirstline=true,
+    % Code design
+    identifierstyle=\color{black},
+    keywordstyle=\color{blue}\bfseries,
+    ndkeywordstyle=\color{greenCode}\bfseries,
+    stringstyle=\color{ocherCode}\ttfamily,
+    commentstyle=\color{darkgray}\ttfamily,
+    % Code
+    language={HTML5},
+    tabsize=2,
+    showtabs=false,
+    showspaces=false,
+    showstringspaces=false,
+    extendedchars=true,
+    breaklines=true
+}
+
+\begin{lstlisting}[style=html]
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projet UE Administration des Systèmes d'Exploitation 2022-2023</title>
+</head>
+<body>
+
+<h1 style="text-align:center">Projet UE Administration des Systèmes d'Exploitation 2022-2023</h1>
+<div style="text-align:center"></div>
+<button type="button" style="text-align:center" onclick="toggle()">Sonde CPU</button>
+<button type="button" style="text-align:center" onclick="toggle2()">Sonde Disque</button>
+<button type="button" style="text-align:center" onclick="toggle3()">Sonde RAM</button>
+</div>
+<div style="text-align:center" id="1">
+<embed type="image/svg+xml" src="Sonde1.svg" width="1000" height="600" />
+</div>
+<div style="text-align:center" id="2">
+<embed type="image/svg+xml" src="Sonde2.svg" width="1000" height="600" />
+</div>
+<div style="text-align:center" id="3">
+<embed type="image/svg+xml" src="Sonde3.svg" width="1000" height="600" />
+</div>
+<script>
+function toggle() {
+    var x = document.getElementById("1");
+    if (x.style.display === "none") {
+    x.style.display = "block";
+    } else {
+    x.style.display = "none";
+    }
+}
+
+function toggle2() {
+    var x = document.getElementById("2");
+    if (x.style.display === "none") {
+    x.style.display = "block";
+    } else {
+    x.style.display = "none";
+    }
+}
+
+function toggle3() {
+    var x = document.getElementById("3");
+    if (x.style.display === "none") {
+    x.style.display = "block";
+    } else {
+    x.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
+\end{lstlisting}
+
+
+
+\end{document}
